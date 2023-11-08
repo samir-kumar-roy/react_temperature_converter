@@ -1,0 +1,45 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(8, 66, 128);
+  font-size: 1.6rem;
+}
+h1 {
+  text-align: center;
+  margin: 3rem 0;
+  color: rgb(14, 195, 241);
+}
+.converter {
+  min-width: 28rem;
+  max-width: 42rem;
+  margin: auto;
+  background-color: #fff;
+  padding: 3rem 6rem;
+  border-radius: 0.2rem;
+}
+.converter fieldset:first-child {
+  margin-bottom: 1rem;
+}
+.converter input {
+  outline: none;
+  width: 100%;
+  padding: 0.3rem;
+  border-radius: 0.1rem;
+  border: 0.1rem solid rgb(183, 183, 183);
+  transition: all 0.4s;
+}
+.converter input:focus {
+  box-shadow: 0 0 0 0.1rem rgb(183, 183, 183);
+}
+.verdict {
+  font-weight: 500;
+  text-align: center;
+  color: rgb(8, 66, 128);
+  margin: 0.5rem auto;
+  padding: 0.3rem;
+  font-size: 2rem;
+}
